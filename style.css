@@ -12,7 +12,7 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg,#dca2ee,#4c0978);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 100px auto 100px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -92,4 +92,17 @@ body{
     margin-top: 10px;
     font-size: 15px;
     display:none;
+}
+@media screen and (min-width:600px){
+    .card{
+        width: 90%;
+        max-width: 400px;
+        background: linear-gradient(135deg,#dca2ee,#4c0978);
+        color: #fff;
+        margin: 50px auto 50px;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+    
 }
