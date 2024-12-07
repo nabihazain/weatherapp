@@ -12,7 +12,7 @@ body{
     max-width: 470px;
     background: linear-gradient(135deg,#dca2ee,#4c0978);
     color: #fff;
-    margin: 100px auto 0;
+    margin: 100px auto 100px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
@@ -92,4 +92,49 @@ body{
     margin-top: 10px;
     font-size: 15px;
     display:none;
+}
+@media screen and (max-width:600px){
+    .card{
+        width: 90%;
+        max-width: 400px;
+        background: linear-gradient(135deg,#dca2ee,#4c0978);
+        color: #fff;
+        margin: 50px auto 50px;
+        border-radius: 20px;
+        padding: 40px 35px;
+        text-align: center;
+    }
+    .search{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .search input{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        color: #555;
+        padding: 10px 25px;
+        height: 40px;
+        border: 30px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 18px;
+        border-radius: 30px;
+    }
+    .search button{
+        border: 0;
+        outline: 0;
+        background: #ebfffc;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    
+    }
+    .search button img{
+     width: 16px;
+    }
 }
