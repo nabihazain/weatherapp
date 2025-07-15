@@ -149,12 +149,11 @@ body{
 .search button {
   flex: 0 0 auto;
 }
-    .humidity,
-.wind {
+.col, .humidity, .wind {
     font-size: 15px;
 }
     .col img{
-    width: 25px;
-    margin-right:5px;
+    width: 33px;
+    margin-right:7px;
     }
 }
