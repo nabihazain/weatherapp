@@ -151,6 +151,10 @@ body{
 }
     .humidity,
 .wind {
-    font-size: 20px;
+    font-size: 15px;
 }
+    .col img{
+    width: 25px;
+    margin-right:5px;
+    }
 }
