@@ -137,4 +137,16 @@ body{
     .search button img{
      width: 16px;
     }
+    .search {
+  flex-wrap: nowrap;
+}
+
+.search input {
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.search button {
+  flex: 0 0 auto;
+}
 }
